@@ -1,0 +1,7 @@
+<div class="container">
+<h2><%= @cocktails.length%></h2>
+<% @cocktails.each do |cocktail| %>
+  <h2><%= cocktail.name %></h2>
+  <p><%= cocktail.address %></p>
+<% end %>
+</div>
